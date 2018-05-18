@@ -33,9 +33,64 @@ ul{
 p{
 	margin-bottom: 2rem;
 }
+
+header{
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: solid 1px #ededed;
+	text-align: center;
+}
+
+
+
 /*Clases*/
 
 .container{
 	background-color: white;
 	border-radius: 3px;
 }
+
+/*Colores*/
+
+.color-orange{
+	color: #f16045;
+}
+
+.color-gray{
+	color: #cccccc;
+}
+
+
+/*Idiomas*/
+
+.idioma{
+	border-bottom: solid 1px #cccccc;
+	padding: 5px;
+}
+
+.idioma::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.idioma__titulo{
+	width: 50%;
+	float: left;
+}
+
+.idioma__estrellas{
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
