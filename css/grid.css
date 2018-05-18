@@ -8,7 +8,6 @@
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
-    background-color: pink;
 }
 .clearfix::after {
 content: "";
@@ -18,7 +17,6 @@ display: table;
 /*Columnas*/
 .col{
     box-sizing: border-box;
-    border: solid black 1px;
     padding: 0 10px;
 }
 
